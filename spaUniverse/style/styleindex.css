@@ -1,0 +1,25 @@
+ 
+.container{
+ 
+    width: 100%;
+    height: 80vw;
+  
+    background-image: url(../images/mountains-universe-1.png);
+}
+nav{
+    margin: 4.0rem;
+    display: flex;
+    align-items: center;
+
+}
+nav, a{
+    margin: 0px 2.7rem;
+    color: var(--neutral-colors-white, #FFF);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+

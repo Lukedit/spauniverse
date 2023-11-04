@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.button{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin-top: 200px;
+}
+:root {
+    font-size: 62.5%; 
+}    
+h1{
+    color: var(--platform-aliases-ttulos, #E1E1E6);
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 60px */
+}
+button{
+    margin:2.4rem 0 ;
+    color: var(--neutral-colors-white, #FFF);
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+
+    display: inline-flex;
+
+
+display: inline-flex;
+padding: 12px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 5px;
+border: 2px solid #FFF;
+background-color: transparent ;
+}
